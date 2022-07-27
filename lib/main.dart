@@ -9,9 +9,7 @@ import 'package:to_do_task/add_task_page.dart';
 import 'package:to_do_task/schedule_screen.dart';
 import 'package:to_do_task/tasks_bloc.dart';
 import 'package:to_do_task/tasks_database.dart';
-printHello(){
-  print("Hello");
-}
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await AndroidAlarmManager.initialize();
